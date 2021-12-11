@@ -1,0 +1,96 @@
+body{
+    font-family: 'sans-serif';
+    font-size: medium;
+    background-image: url('../image/system/BgImage_Geme.jpg');
+    /* background-size: cover; */
+    /*background-repeat: no-repeat;*/
+}
+
+div.info-header{
+    background-size: 100% 100%;
+    background-color: wheat;
+    border: 4px yellow;
+    /* background-repeat: no-repeat; */
+    /* background-image: url(../image/system/Frame.jpg); */
+}
+
+.label-title-header{
+    font-size: 20pt;
+    color: blue;
+    font-style: oblique;
+}
+
+.label{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    width: 110px;
+}
+.label-title{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color:royalblue;
+    text-shadow: 1px 1px 2px silver;
+    width: 70pt;
+}
+.label-score{
+    color: darkred;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    width: 55px;
+    text-align: right;
+    margin-right: 4pt;
+}
+.label-time{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    width: 85px;
+    text-align: right;
+}
+
+div{
+    margin: 2pt;
+    position: relative;
+}
+div.frame{
+    margin: auto;
+    text-align: center;
+}
+div.flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.error-msg{
+    color: brown;
+    font-style: oblique;
+    background-color: grey;
+    border: solid black;
+}
+
+.quiz-body{
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button{
+    margin: 2pt;
+    font-size: medium;
+    width: 110px;
+}
+
+.hide{
+    visibility: hidden !important;
+}
+.show{
+    visibility: visible !important;
+}

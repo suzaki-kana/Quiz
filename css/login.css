@@ -1,0 +1,24 @@
+div.frame-login{
+    margin: auto;
+    text-align: center;
+    width: 612px;
+    height:522px;
+    background-image: url(../image/system/BgImage_Entrance.jpg);
+}
+
+input{
+    margin: 2pt;
+}
+
+.text-input{
+    color: black;
+    background-color: white;
+    border: double gold;
+    width: 150px;
+}
+.text-required{
+    background-color: lightblue;
+}
+.text-error{
+    background-color: lightpink;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <max_card>20</max_card>
+	<max_challenger>3</max_challenger>
+    <time_limit>22:21</time_limit>
+	<msg>
+		<E001>{0}を入力してください。</E001>
+		<E002>{0}が正しくありません。</E002>
+		<E003>ログインを行ってください。</E003>
+		<E004>処理に失敗しました。再操作してください。</E004>
+		<E005>{0}が成功しました。</E005>
+		<E006>xx</E006>
+		<E007>xx</E007>
+	</msg>
+</root>
